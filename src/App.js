@@ -15,7 +15,7 @@ function App() {
 
         <ButtonComponent />
 
-        <img src={"https://placedog.net/400"} className="App-logo " alt="logo" />
+        <img src={"https://placedog.net/400"} className="App-logo rotatingDoggo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
