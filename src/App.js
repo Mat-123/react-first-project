@@ -1,12 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import ImageComponent from "./components/ImageComponent";
 import ButtonComponent from "./components/ButtonComponent";
+import FunctionButtonComponent from "./components/FunctionButtonComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <ImageComponent ImgSource={"https://placedog.net/300"} altDesc="A beautiful doggo" />
+        <FunctionButtonComponent TextButton="Pet Doggo Funzionante" />
+
         <ButtonComponent TextButton="Pet Doggo" />
 
         <ButtonComponent />
